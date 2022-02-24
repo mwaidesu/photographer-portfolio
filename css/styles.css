@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+div{
+  display: flex;
+  padding: 15px; 
+  margin: 10px;
+}
+img{
+  width: 25%;
+  float: left;
+  
+}
+
+p{
+  padding: 20px;
+  font-size:medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width:480px){
+  img{
+    height: 100%;
+  }
+}
